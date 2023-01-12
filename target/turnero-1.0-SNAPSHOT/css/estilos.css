@@ -1,0 +1,109 @@
+header{
+    /*position: absolute;*/
+    position: relative; /*natural position*/
+    width: 100%;
+    margin-top: 0;
+    align-self: center;
+    
+}
+
+body{
+    background-color: whitesmoke;
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#padre {
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;  
+    height: 50%;
+}
+#hijo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+    width: 50%; 
+    height: 50%;
+}
+h2{
+    font-family: 'Lucida Sans';
+    font-size: 3vw; /*texto responsivo*/
+    margin-top: 5%;
+    color: rgba(13,202,240,255);
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid rgba(13,202,240,255);
+    color: rgba(13,202,240,255);
+    background-color: rgba(13,202,240,255);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 100px 90px;
+    color: white;
+    text-decoration: none;
+
+}
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid rgba(13,202,240,255);
+    color: rgba(13,202,240,255);
+}
+
+.btn-v {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid rgba(13,202,240,255);
+    color: rgba(13,202,240,255);
+}
+.btn-v:hover {
+    background-color: rgba(13,202,240,255);
+    color: white;
+
+}
+
+.mb-3 {
+    color: rgba(13,202,240,255);
+    font-weight: bold;
+}
+
+a {
+   color: grey; 
+   position: relative;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+}
+
+a:hover {
+    color: rgba(13,202,240,255);;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
